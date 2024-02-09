@@ -2,11 +2,10 @@
   "name": "restraurant-mern-project",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "type" :"module",
   "scripts": {
-   "start" :"node app.js",
-   "dev" :"nodemon app.js"
+   "start" :"node app.js"
   },
   "keywords": [],
   "author": "",

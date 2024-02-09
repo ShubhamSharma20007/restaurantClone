@@ -17,7 +17,7 @@ const Reservation = () => {
 
     const handleClick = async(e)=>{
         e.preventDefault();
-        const res =  await axios.post("http://localhost:3000/api/v1/res/send",{
+        const res =  await axios.post("https://restaturant-backend.onrender.com/api/v1/res/send",{
             firstName,
             lastName,
             email,
@@ -37,7 +37,7 @@ const Reservation = () => {
         }
       else{
         toast.error("Reservation failed")
-        
+
       }
     }
   return (
